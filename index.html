@@ -1,5 +1,38 @@
 <html>
+	<head>
+	<style>
+		img{
+			border-radius:50%;
+			width: 300px;
+			height: 300px;
+		}
+		.container {
+			position:relative;
+			text-align: center;
+			color: white;
+			top:30%;
+			font-size: 25px;
+			-webkit-text-stroke: 2px black;
+		}
+		.name{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.window{
+			height:100%;
+			width:100%;
+			position:relative;
+		}
+	</style>
+	</head>
 <body>
-	<center><h1>Kody Bloodworth</h1><center>
+	<div class = "window">
+	<div class="container">
+		<div class="name"><h1>Kody Bloodworth</h1></div>
+		<img src = "frog.jpg">
+	</div>
+	</div>
 </body>
 </html>
